@@ -1,4 +1,4 @@
-const Minipass = require('minipass')
+const { Minipass } = require('minipass')
 
 class SizeError extends Error {
   constructor (found, expect) {
